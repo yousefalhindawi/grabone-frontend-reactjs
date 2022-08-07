@@ -1,0 +1,25 @@
+
+.homepage-header{
+    font-size: 32px;
+    font-weight: 700;
+    color: #4f5864;
+}
+.homepage-header:hover{
+    color: #1eb3ec;
+}
+.homepage-btn{
+    border-radius: 5px;
+    background-color: #01b2ee;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 35px;
+    height: 35px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 15px;
+}
+.homepage-btn:hover{
+    background-color: #37bbef;
+    /* color: #fff; */
+}

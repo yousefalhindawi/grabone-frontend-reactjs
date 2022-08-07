@@ -1,0 +1,16 @@
+.sidebar{
+    background-color:#fff;
+ width:280px
+}
+.sidebar-header-divider {
+    border-bottom: 1px solid #dce3ed;
+    border-radius: 3px 3px 0 0;
+    color: #dce3ed;
+}
+
+@media screen and (min-device-width: 320px)
+and (max-device-width: 1024px) {
+    .sidebar {
+    display:none !important;
+  }
+}

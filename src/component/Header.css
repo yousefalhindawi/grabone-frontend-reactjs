@@ -1,0 +1,46 @@
+.Header{
+    align-items: center !important;
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+    width: 100% !important;
+    /* color: #fff !important; */
+    background: #01b2ee !important;
+    z-index: 1000 !important;
+    
+    /* margin-bottom: 1000px !important; */
+}
+
+.Header .nav-item .nav-link {
+    color: #fff !important;
+    font-size:1.3em !important;
+    margin-left: 15px;
+}
+.Header .navbar-brand {
+    color: #fff !important;
+}
+
+.location{
+    margin-right: 7px;
+    /* margin-top: 7px; */
+    /* color: red !important; */
+}
+.fa-solid.fa-envelope{
+    font-size:.8em !important;
+}
+
+.logo{
+    font-size:2em !important;
+    font-weight: bolder;
+}
+
+.Nav-toggle{
+    color: #fff;
+}
+
+@media screen and (min-device-width: 320px)
+and (max-device-width: 1024px) {
+    .Header {
+    position: sticky !important;
+    top: 0 !important;
+  }
+}

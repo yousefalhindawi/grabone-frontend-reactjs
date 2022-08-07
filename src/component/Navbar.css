@@ -1,0 +1,38 @@
+.Nav {
+    background-color: #ffffff !important;
+    box-shadow: 0px 0px 5px rgb(141, 133, 133) !important;
+    position: sticky !important;
+    top: -5px !important;
+    z-index: 9 !important;
+}
+.nav-item .nav-link.Navbar{
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    cursor: pointer;
+    display: block;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    height: 57px;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-item .nav-link:hover{
+    color: #1eb3ec;
+}
+
+
+
+
+@media screen and (min-device-width: 320px)
+and (max-device-width: 1024px) {
+    .Nav {
+    display:none !important;
+  }
+}
