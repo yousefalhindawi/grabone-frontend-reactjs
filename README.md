@@ -1,6 +1,6 @@
 
 # Demo:
-(https://grabone-frontend.netlify.app/)
+https://grabone-frontend.netlify.app/
 
 # Getting Started with Create React App
 
